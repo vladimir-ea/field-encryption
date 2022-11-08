@@ -1,9 +1,15 @@
 [package]
 name = "field-encryption"
+license = "MIT"
 version = "0.0.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+readme = "README.md"
+repository = "https://github.com/vladimir-ea/field-encryption"
+description = """
+A library for formattable field encyption.
+"""
+keywords = ["encryption", "regex", "fpe"]
+categories = ["encryption"]
 
 [dependencies]
 generic-array = "0.14.6"
