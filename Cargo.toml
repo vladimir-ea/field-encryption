@@ -1,0 +1,13 @@
+[package]
+name = "field-encryption"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+generic-array = "0.14.6"
+hkdf = "0.12.3"
+regex-automata = "0.1"
+sha3 = "0.10.6"
+thiserror="1.0"
